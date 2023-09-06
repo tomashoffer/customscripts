@@ -1,0 +1,13 @@
+<button onclick="mostrarPopup()">Abrir Pop-up</button>
+
+<script>
+    function mostrarPopup() {
+        var contraseñaIngresada = prompt("Por favor, ingresa la contraseña:");
+
+        if (contraseñaIngresada === "riverplate") {
+            alert("Puedes abrir este archivo.");
+        } else {
+            alert("Contraseña incorrecta. No puedes abrir este archivo.");
+        }
+    }
+</script>
